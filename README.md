@@ -1,11 +1,8 @@
 # Chat by Vue + Webpack
 
-[Live demo](http://coffcer.github.io/vue-chat/)
+## 这是参考网上技术文档仿制的chat单页
 
-<img width="600" src="https://github.com/Coffcer/vue-chat/blob/master/intro.jpg">
-
-## Build Setup
-
+##Build Setup
 ``` bash
 # install dependencies
 npm install

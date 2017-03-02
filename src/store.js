@@ -12,7 +12,7 @@ const store = new Vuex.Store({
     state: {
         // 当前用户
         user: {
-            name: 'coffce',
+            name: '测试1',
             img: 'dist/images/1.jpg'
         },
         // 会话列表
@@ -20,23 +20,71 @@ const store = new Vuex.Store({
             {
                 id: 1,
                 user: {
-                    name: '示例介绍',
+                    name: 'vue',
                     img: 'dist/images/2.png'
                 },
                 messages: [
                     {
-                        content: 'Hello，这是一个基于Vue + Vuex + Webpack构建的简单chat示例，聊天记录保存在localStorge, 有什么问题可以通过Github Issue问我。',
+                        content: 'Hello，这是一个基于Vue + Vuex + Webpack构建的简单chat页面，聊天记录保存在localStorge。',
                         date: now
                     }, {
-                        content: '项目地址: https://github.com/coffcer/vue-chat',
+                        content: '这是测试用的一句话',
                         date: now
                     }
                 ]
             },
             {
-                id: 2,
+                id: 3,
                 user: {
-                    name: 'webpack',
+                    name: '测试3',
+                    img: 'dist/images/3.jpg'
+                },
+                messages: []
+            },
+            {
+                id: 4,
+                user: {
+                    name: '测试4',
+                    img: 'dist/images/3.jpg'
+                },
+                messages: []
+            },
+            {
+                id: 5,
+                user: {
+                    name: '测试5',
+                    img: 'dist/images/3.jpg'
+                },
+                messages: []
+            },
+            {
+                id: 6,
+                user: {
+                    name: '测试6',
+                    img: 'dist/images/3.jpg'
+                },
+                messages: []
+            },
+            {
+                id: 7,
+                user: {
+                    name: '测试7',
+                    img: 'dist/images/3.jpg'
+                },
+                messages: []
+            },
+            {
+                id: 8,
+                user: {
+                    name: '测试8',
+                    img: 'dist/images/3.jpg'
+                },
+                messages: []
+            },
+            {
+                id: 9,
+                user: {
+                    name: '测试9',
                     img: 'dist/images/3.jpg'
                 },
                 messages: []
